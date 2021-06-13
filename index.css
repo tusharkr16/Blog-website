@@ -1,0 +1,150 @@
+body{
+    background-color: #F5F5F5;
+}
+.main_heading{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #000;
+}
+.main_heading_para{
+   font-size: 1.2rem; 
+}
+.main_header_div{
+    height: calc(100vh - 40vh);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 50%, rgba(0, 0, 0, 0)), url('https://images.pexels.com/photos/753695/pexels-photo-753695.jpeg?cs=srgb&dl=pexels-janson-k-753695.jpg&fm=jpg');
+    background-size: 100% 100%;
+}
+.main_header_div p{
+    font-weight: bold;
+    font-size: 3.1rem;
+    color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.main_header_div h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #fff;
+    padding-top: 2rem;
+    transition:.3s all ease ;
+}
+.animateword div li{
+    font-weight: bold;
+    padding: 0 1rem;
+    height: 3.1rem;
+    margin-top: 1.6rem;
+    margin-bottom: 3.0rem;
+    margin-left: 3.8rem;
+    display: block;
+}
+.flip {
+    -webkit-animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+    animation: flip4 10s cubic-bezier(0.23, 1, 0.32, 1.2) infinite;
+}
+
+@-webkit-keyframes flip4 {
+    0% {
+        margin-top: -360px;
+    }
+
+    5% {
+        margin-top: -270px;
+    }
+
+    25% {
+        margin-top: -270px;
+    }
+
+    30% {
+        margin-top: -180px;
+    }
+
+    50% {
+        margin-top: -180px;
+    }
+
+    55% {
+        margin-top: -90px;
+    }
+
+    75% {
+        margin-top: -90px;
+    }
+
+    80% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -270px;
+    }
+
+}
+
+@keyframes flip4 {
+    0% {
+        margin-top: -360px;
+    }
+
+    5% {
+        margin-top: -270px;
+    }
+
+    25% {
+        margin-top: -270px;
+    }
+
+    30% {
+        margin-top: -180px;
+    }
+
+    50% {
+        margin-top: -180px;
+    }
+
+    55% {
+        margin-top: -90px;
+    }
+
+    75% {
+        margin-top: -90px;
+    }
+
+    80% {
+        margin-top: 0px;
+    }
+
+    99.99% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: -270px;
+    }
+
+}
+.animateword{
+    overflow: hidden;
+    position: relative;
+    float: right;
+    height: 7rem;
+}
+.animateword div{
+  padding-top: 1rem;
+  margin-top: -1rem;
+}
+
+.main_header_div button{
+    border-width: 0;
+    transition:.3s all ease;
+    padding: 0.6rem 2rem;
+    outline: none;
+}
+.main_header_div button:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.7);
+}
