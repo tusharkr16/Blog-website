@@ -148,3 +148,11 @@ body{
     transform: translateY(-0.5rem);
     box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.7);
 }
+.btn{
+    background-color: #bbe1fa;
+}
+.btn:hover{
+    background-color: rgb(210, 228, 210);
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.7);
+}
